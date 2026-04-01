@@ -1,0 +1,21 @@
+---
+description: "Async, I/O, and external API rules for Spectre's data fetching modules."
+globs: ["modules/**/*.py", "utils/**/*.py"]
+alwaysApply: false
+---
+
+# Async & I/O Rules
+
+- Use `async def` / `await` for ALL network I/O (HTTP requests, API calls).
+- Use `httpx.AsyncClient` (not `requests`) for all outbound HTTP.
+- Implement exponential backoff via `tenacity` for retryable errors (429, 503).
+- Rate-limit all external calls via `utils/rate_limiter.py` — never call APIs in tight loops.
+- Always set a `timeout=` on every network call. Default: 30 seconds.
+- Handle `asyncio.CancelledError` explicitly in long-running tasks.
+- Use `asyncio.gather()` with `return_exceptions=True` when running modules in parallel.
+
+# Proxy & Stealth (utils/proxy.py)
+- All outbound scraping requests MUST route through the proxy manager.
+- Rotate User-Agent headers on every request using a predefined pool.
+- Honour `robots.txt` — check before scraping any domain.
+- The proxy manager must support a `dry_run=True` mode that logs requests without sending.

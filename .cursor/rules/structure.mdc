@@ -1,0 +1,38 @@
+---
+description: "Enforces the canonical Spectre folder and module layout."
+globs: ["**/*.py"]
+alwaysApply: true
+---
+
+# Project Layout (Do Not Deviate)
+spectre/
+├── main.py                  # CLI entry point only
+├── core/
+│   ├── __init__.py
+│   ├── orchestrator.py      # Runs modules in sequence, assembles JSON
+│   └── schema.py            # Pydantic output models (SpectreResult, ModuleResult)
+├── modules/
+│   ├── __init__.py
+│   ├── base.py              # AbstractModule base class
+│   ├── financial.py         # Module 1: Financial Fortress (edgartools)
+│   ├── ip.py                # Module 2: Legal Minefield (patent-client)
+│   └── sentiment.py         # Module 3: Psychological Atmosphere (VADER/TextBlob)
+├── utils/
+│   ├── __init__.py
+│   ├── proxy.py             # Rotating proxy manager
+│   ├── rate_limiter.py      # Respectful rate-limiting decorator
+│   └── logger.py            # Structured logging (structlog)
+├── config/
+│   ├── __init__.py
+│   └── settings.py          # Pydantic BaseSettings — all config via env vars
+├── tests/
+│   ├── unit/
+│   └── integration/
+├── pyproject.toml
+└── .env.example
+
+# Module Plugin Contract
+Every module in `modules/` MUST inherit from `modules/base.py::AbstractModule`.
+AbstractModule defines: `name: str`, `run(ticker: str) -> ModuleResult`, `validate() -> bool`.
+The orchestrator calls modules by iterating over registered AbstractModule subclasses.
+This is the plugin architecture — adding a new module = new file + register in orchestrator.

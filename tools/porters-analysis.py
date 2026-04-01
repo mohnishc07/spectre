@@ -36,7 +36,7 @@ def run_financial_fortress(ticker: str) -> dict:
     }
 
     try:
-        import edgartools as et  # pip install edgartools
+        import edgar as et  # pip install edgartools
 
         company = et.Company(ticker)
         financials = company.get_financials()

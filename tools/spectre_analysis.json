@@ -1,0 +1,36 @@
+{
+  "spectre_version": "0.0.3",
+  "generated_at": "2026-03-31T16:51:57.673057Z",
+  "target": {
+    "ticker": "AAPL",
+    "company_name": "Apple Inc"
+  },
+  "schema_compliant": true,
+  "modules": [
+    {
+      "module": "financial_fortress",
+      "ticker": "AAPL",
+      "status": "dependency_missing",
+      "data": {
+        "note": "Install edgartools to activate this module."
+      }
+    },
+    {
+      "module": "legal_minefield",
+      "company": "Apple Inc",
+      "status": "dependency_missing",
+      "data": {
+        "note": "Install patent-client to activate this module."
+      }
+    },
+    {
+      "module": "psychological_atmosphere",
+      "company": "Apple Inc",
+      "lookback_days": 14,
+      "status": "dependency_missing",
+      "data": {
+        "note": "No module named 'pygooglenews'"
+      }
+    }
+  ]
+}
