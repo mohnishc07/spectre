@@ -1,0 +1,61 @@
+[build-system]
+requires = ["hatchling>=1.18.0"]
+build-backend = "hatchling.build"
+
+[project]
+name = "spectre"
+version = "0.1.0"
+description = "Modular headless moat analysis engine"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = [
+    "polars>=0.20.0",
+    "pydantic>=2.0.0",
+    "pydantic-settings>=2.0.0",
+    "httpx>=0.27.0",
+    "edgartools>=5.27.0",
+    "lxml>=5.0.0",
+    "pytrends>=4.9.0",
+    "vaderSentiment>=3.3.0",
+    "structlog>=24.0.0",
+    "tenacity>=8.2.0",
+    "arq>=0.25.0",
+    "redis>=5.0.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "pytest>=8.0.0",
+    "pytest-asyncio>=0.23.0",
+    "pytest-cov>=4.1.0",
+    "ruff>=0.4.0",
+    "pyright>=1.1.350",
+]
+
+[tool.hatch.build.targets.wheel]
+packages = ["config", "core", "modules", "utils"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
+pythonpath = ["."]
+
+[tool.coverage.run]
+source = ["config", "core", "modules", "utils"]
+omit = ["tests/*"]
+
+[tool.ruff]
+line-length = 88
+target-version = "py310"
+src = [".", "config", "core", "modules", "utils", "tests"]
+exclude = ["tools"]
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "W"]
+
+[tool.pyright]
+pythonVersion = "3.10"
+typeCheckingMode = "basic"
+extraPaths = ["."]
+include = ["config", "core", "modules", "utils", "main.py"]
+exclude = ["tests", "tools", ".venv"]

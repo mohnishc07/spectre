@@ -1,0 +1,293 @@
+{
+  "ticker": "AAPL",
+  "generated_at": "2026-04-04T16:25:14.916243Z",
+  "modules": [
+    {
+      "name": "financial",
+      "status": "success",
+      "started_at": "2026-04-04T16:24:16.602971Z",
+      "completed_at": "2026-04-04T16:24:38.657993Z",
+      "error_message": null,
+      "financial": {
+        "headline": "Apple Inc. (CIK 320193)",
+        "revenue_usd": null,
+        "total_assets_usd": "211284000000.0",
+        "periods": [
+          {
+            "period": "2025-09-27",
+            "revenue_usd": null,
+            "net_income_usd": "112010000000.0",
+            "total_assets_usd": "211284000000.0",
+            "total_equity_usd": "359241000000.0",
+            "profit_margin": null,
+            "asset_turnover": null,
+            "financial_leverage": "0.58814",
+            "roe": null
+          },
+          {
+            "period": "2024-09-28",
+            "revenue_usd": null,
+            "net_income_usd": "93736000000.0",
+            "total_assets_usd": "211993000000.0",
+            "total_equity_usd": "364980000000.0",
+            "profit_margin": null,
+            "asset_turnover": null,
+            "financial_leverage": "0.580835",
+            "roe": null
+          },
+          {
+            "period": "2023-09-30",
+            "revenue_usd": null,
+            "net_income_usd": "96995000000.0",
+            "total_assets_usd": "209017000000.0",
+            "total_equity_usd": "352583000000.0",
+            "profit_margin": null,
+            "asset_turnover": null,
+            "financial_leverage": "0.592816",
+            "roe": null
+          },
+          {
+            "period": "2022-09-24",
+            "revenue_usd": null,
+            "net_income_usd": "99803000000.0",
+            "total_assets_usd": "217350000000.0",
+            "total_equity_usd": "352755000000.0",
+            "profit_margin": null,
+            "asset_turnover": null,
+            "financial_leverage": "0.61615",
+            "roe": null
+          },
+          {
+            "period": "2021-09-25",
+            "revenue_usd": null,
+            "net_income_usd": "94680000000.0",
+            "total_assets_usd": "216166000000.0",
+            "total_equity_usd": "351002000000.0",
+            "profit_margin": null,
+            "asset_turnover": null,
+            "financial_leverage": "0.615854",
+            "roe": null
+          }
+        ]
+      },
+      "ip": null,
+      "sentiment": null,
+      "porters": null,
+      "vrio": null,
+      "pestel": null
+    },
+    {
+      "name": "ip",
+      "status": "error",
+      "started_at": "2026-04-04T16:24:16.603321Z",
+      "completed_at": "2026-04-04T16:24:16.616994Z",
+      "error_message": "patent-client not installed (lxml build often fails on Py3.13 Windows). Use Python 3.12+ with lxml wheels. PatentsView is gone (410).",
+      "financial": null,
+      "ip": {
+        "patent_count": null,
+        "notes": "Add patent-client or USPTO API client"
+      },
+      "sentiment": null,
+      "porters": null,
+      "vrio": null,
+      "pestel": null
+    },
+    {
+      "name": "sentiment",
+      "status": "success",
+      "started_at": "2026-04-04T16:24:16.620712Z",
+      "completed_at": "2026-04-04T16:24:16.637199Z",
+      "error_message": null,
+      "financial": null,
+      "ip": null,
+      "sentiment": {
+        "compound_score": "0.0",
+        "sample_size": 2
+      },
+      "porters": null,
+      "vrio": null,
+      "pestel": null
+    },
+    {
+      "name": "porters",
+      "status": "success",
+      "started_at": "2026-04-04T16:24:16.607555Z",
+      "completed_at": "2026-04-04T16:24:47.563654Z",
+      "error_message": null,
+      "financial": null,
+      "ip": null,
+      "sentiment": null,
+      "porters": {
+        "capex_usd": "12715000000.0",
+        "free_cash_flow_usd": null,
+        "operating_margin": "0.269151",
+        "rd_to_revenue_ratio": null,
+        "risk_factors_excerpt": "Item 1A.    Risk Factors\n\nThe following summarizes factors that could have a material adverse effect on the Company’s business, reputation, results of operations, financial condition and stock price. The Company may not be able to accurately predict, control or mitigate these risks. Statements in this section are based on the Company’s beliefs and opinions regarding matters that could materially adversely affect the Company in the future and are not representations as to whether such matters have or have not occurred previously. The risks and uncertainties described below are not exhaustive and should not be considered a complete statement of all potential risks or uncertainties that the Company faces or may face in the future.\n\nThis section should be read in conjunction with Part II, Item 7, “Management’s Discussion and Analysis of Financial Condition and Results of Operations” and the consolidated financial statements and accompanying notes in Part II, Item 8, “Financial Statements and Supplementary Data” of this Form 10-K.\n\nMacroeconomic and Industry Risks\n\nThe Company’s operations and performance depend significantly on global and regional economic conditions and adverse economic conditions can materially adversely affect the Company’s business, results of operations, financial condition and stock price.\n\nThe Company has international operations with sales outside the U.S. representing a majority of the Company’s total net sales. In addition, the Company’s global supply chain is large and complex and a majority of the Company’s supplier facilities, including manufacturing and assembly sites, are located outside the U.S. As a result, the Company’s operations and performance depend significantly on global and regional economic conditions.\n\nAdverse macroeconomic conditions, including slow growth or recession, high unemployment, inflation, tighter credit, higher interest rates, and currency fluctuations, can adversely impact consumer confidence and spending and materially adversely affect demand for the Company’s products and services. In addition, consumer confidence and spending can be materially adversely affected in response to changes in fiscal and monetary policy, financial market volatility, declines in income or asset values, and other economic factors.\n\nUncertainty about, or a decline in, global or regional economic conditions can also have a significant impact on the Company’s suppliers, contract manufacturers, logistics providers, distributors, cellular network carriers and other channel partners, and developers. Potential outcomes include financial instability; inability to obtain credit to finance business operations; and insolvency.\n\nAdverse economic conditions can also lead to increased credit and collectibility risk on the Company’s trade receivables; the failure of derivative counterparties and other financial institutions; limitations on the Company’s ability to issue new debt; reduced liquidity; and declines in the fair values of the Company’s financial instruments. These and other impacts can materially adversely affect the Company’s business, results of operations, financial condition and stock price.\n\nApple Inc. | 2025 Form 10-K | 5\n\nThe Company’s business can be impacted by political events, trade and other international disputes, geopolitical tensions, conflict, terrorism, natural disasters, public health issues, industrial accidents and other business interruptions.\n\nPolitical events, trade and other international disputes, geopolitical tensions, conflict, terrorism, natural disasters, public health issues, industrial accidents and other business interruptions can have a material adverse effect on the Company and its customers, employees, suppliers, contract manufacturers, logistics providers, distributors, cellular network carriers and other channel partners.\n\nThe Company has a large, global business with sales outside the U.S. representing a majority of the Company’s total net sales, and the Company believes that it generally benefits from growth in international trade. A significant majority of the Company’s manufacturing is performed in whole or in part by outsourcing partners located primarily in China mainland, India, Japan, South Korea, Taiwan and Vietnam, in addition to sourcing from partners and facilities located in the U.S. Restrictions on international trade, such as tariffs and other controls on imports or exports of goods, technology or data, can materially adversely affect the Company’s business and supply chain. The impact can be particularly significant if these restrictive measures apply to countries and regions where the Company derives a significant portion of its revenues and/or has significant supply chain operations. Restrictive measures can increase the cost or limit the availability of the Company’s products and the components and rare earths and other raw materials that go into them. Restrictive measures can also require the Company to change suppliers, res... [truncated]",
+        "mda_excerpt": "Item 7.    Management’s Discussion and Analysis of Financial Condition and Results of Operations\n\nThe following discussion should be read in conjunction with the consolidated financial statements and accompanying notes included in Part II, Item 8 of this Form 10-K. This Item generally discusses 2025 and 2024 items and year-to-year comparisons between 2025 and 2024. Discussions of 2023 items and year-to-year comparisons between 2024 and 2023 are not included, and can be found in “Management’s Discussion and Analysis of Financial Condition and Results of Operations” in Part II, Item 7 of the Company’s Annual Report on Form 10-K for the fiscal year ended September 28, 2024.\n\nProduct, Service and Software Announcements\n\nThe Company announces new product, service and software offerings at various times during the year. Significant announcements during fiscal year 2025 included the following:\n\nFirst Quarter 2025:\n\n•MacBook Pro\n\n•Mac mini\n\n•iMac\n\n•iPad mini\n\nSecond Quarter 2025:\n\n•iPhone 16e\n\n•iPad Air\n\n•iPad\n\n•MacBook Air\n\n•Mac Studio\n\nThird Quarter 2025:\n\n•iOS 26, macOS Tahoe 26, iPadOS 26, watchOS 26, visionOS 26 and tvOS 26\n\nFourth Quarter 2025:\n\n•iPhone 17, iPhone Air, iPhone 17 Pro and iPhone 17 Pro Max\n\n•Apple Watch Series 11, Apple Watch SE 3 and Apple Watch Ultra 3\n\n•AirPods Pro 3\n\nFiscal Period\n\nThe Company’s fiscal year is the 52- or 53-week period that ends on the last Saturday of September. An additional week is included in the first fiscal quarter every five or six years to realign the Company’s fiscal quarters with calendar quarters, which occurred in the first quarter of 2023. The Company’s fiscal years 2025 and 2024 spanned 52 weeks each, whereas fiscal year 2023 spanned 53 weeks.\n\nMacroeconomic Conditions\n\nMacroeconomic conditions, including inflation, interest rates and currency fluctuations, have directly and indirectly impacted, and could in the future materially impact, the Company’s results of operations and financial condition.\n\nApple Inc. | 2025 Form 10-K | 21\n\nTariffs and Other Measures\n\nBeginning in the second quarter of 2025, new U.S. Tariffs were announced, including additional tariffs on imports from China, India, Japan, South Korea, Taiwan, Vietnam and the EU, among others. In response, several countries have imposed, or threatened to impose, reciprocal tariffs on imports from the U.S. and other retaliatory measures. Various modifications to the U.S. Tariffs have been announced and further changes could be made in the future, which may include additional sector-based tariffs or other measures. For example, the U.S. Department of Commerce has initiated an investigation under Section 232 of the Trade Expansion Act of 1962, as amended, into, among other things, imports of semiconductors, semiconductor manufacturing equipment, and their derivative products, including downstream products that contain semiconductors. Tariffs and other measures that are applied to the Company’s products or their components can have a material adverse impact on the Company’s business, results of operations and financial condition, including impacting the Company’s supply chain, the availability of rare earths and other raw materials and components, pricing and gross margin. The ultimate impact remains uncertain and will depend on several factors, including whether additional or incremental U.S. Tariffs or other measures are announced or imposed, to what extent other countries implement tariffs or other retaliatory measures in response, and the overall magnitude and duration of these measures. Trade and other international disputes can have an adverse impact on the overall macroeconomic environment and result in shifts and reductions in consumer spending and negative consumer sentiment for the Company’s products and services, all of which can further adversely affect the Company’s business and results of operations.\n\nSegment Operating Performance\n\nThe following table shows net sales by reportable segment for 2025, 2024 and 2023 (dollars in millions):\n\n2025Change2024Change2023\n\nAmericas$178,353 7 %$167,045 3 %$162,560 \n\nEurope111,032 10 %101,328 7 %94,294 \n\nGreater China64,377 (4)%66,952 (8)%72,559 \n\nJapan28,703 15 %25,052 3 %24,257 \n\nRest of Asia Pacific33,696 10 %30,658 4 %29,615 \n\nTotal net sales$416,161 6 %$391,035 2 %$383,285 \n\nAmericas\n\nAmericas net sales increased during 2025 compared to 2024 primarily due to higher net sales of iPhone and Services. The weakness in foreign currencies relative to the U.S. dollar had an unfavorable year-over-year impact on Americas net sales during 2025.\n\nEurope\n\nEurope net sales increased during 2025 compared to 2024 primarily due to higher net sales of Services, iPhone and Mac.\n\nGreater China\n\nGreater China net sales decreased during 2025 compared to 2024 primarily due to lower net sales of iPhone, partially offset by higher net sales of Mac.\n\nJapan\n\nJapan net sales increased during 2025 compared to 2024 primarily due to higher net sales of iPhone, Services and iPad.\n\nR... [truncated]",
+        "competitor_metrics": []
+      },
+      "vrio": null,
+      "pestel": null
+    },
+    {
+      "name": "vrio",
+      "status": "success",
+      "started_at": "2026-04-04T16:24:16.610686Z",
+      "completed_at": "2026-04-04T16:25:14.914644Z",
+      "error_message": null,
+      "financial": null,
+      "ip": null,
+      "sentiment": null,
+      "porters": null,
+      "vrio": {
+        "intangible_assets_usd": null,
+        "ppe_usd": "49834000000.0",
+        "executive_compensation": [
+          {
+            "year": "2026",
+            "name": "Unknown",
+            "title": null,
+            "total_compensation_usd": null
+          },
+          {
+            "year": "2026",
+            "name": "Unknown",
+            "title": null,
+            "total_compensation_usd": null
+          },
+          {
+            "year": "2026",
+            "name": "Unknown",
+            "title": null,
+            "total_compensation_usd": null
+          },
+          {
+            "year": "2026",
+            "name": "Unknown",
+            "title": null,
+            "total_compensation_usd": null
+          },
+          {
+            "year": "2026",
+            "name": "Unknown",
+            "title": null,
+            "total_compensation_usd": null
+          },
+          {
+            "year": "2025",
+            "name": "Unknown",
+            "title": null,
+            "total_compensation_usd": null
+          },
+          {
+            "year": "2025",
+            "name": "Unknown",
+            "title": null,
+            "total_compensation_usd": null
+          },
+          {
+            "year": "2025",
+            "name": "Unknown",
+            "title": null,
+            "total_compensation_usd": null
+          },
+          {
+            "year": "2025",
+            "name": "Unknown",
+            "title": null,
+            "total_compensation_usd": null
+          },
+          {
+            "year": "2024",
+            "name": "Unknown",
+            "title": null,
+            "total_compensation_usd": null
+          },
+          {
+            "year": "2024",
+            "name": "Unknown",
+            "title": null,
+            "total_compensation_usd": null
+          },
+          {
+            "year": "2024",
+            "name": "Unknown",
+            "title": null,
+            "total_compensation_usd": null
+          }
+        ],
+        "insider_transactions": []
+      },
+      "pestel": null
+    },
+    {
+      "name": "pestel",
+      "status": "success",
+      "started_at": "2026-04-04T16:24:16.613616Z",
+      "completed_at": "2026-04-04T16:24:49.689811Z",
+      "error_message": null,
+      "financial": null,
+      "ip": null,
+      "sentiment": null,
+      "porters": null,
+      "vrio": null,
+      "pestel": {
+        "geographic_revenue": [],
+        "product_revenue": [],
+        "material_events": [
+          {
+            "filed_date": "2026-02-24",
+            "form_type": "8-K",
+            "description": "Item 5.07; Item 9.01"
+          },
+          {
+            "filed_date": "2026-01-29",
+            "form_type": "8-K",
+            "description": "Item 2.02; Item 9.01"
+          },
+          {
+            "filed_date": "2026-01-02",
+            "form_type": "8-K",
+            "description": "Item 5.02"
+          },
+          {
+            "filed_date": "2025-12-05",
+            "form_type": "8-K",
+            "description": "Item 5.02"
+          },
+          {
+            "filed_date": "2025-10-30",
+            "form_type": "8-K",
+            "description": "Item 2.02; Item 9.01"
+          },
+          {
+            "filed_date": "2025-07-31",
+            "form_type": "8-K",
+            "description": "Item 2.02; Item 9.01"
+          },
+          {
+            "filed_date": "2025-07-25",
+            "form_type": "8-K",
+            "description": "Item 5.02"
+          },
+          {
+            "filed_date": "2025-07-09",
+            "form_type": "8-K",
+            "description": "Item 5.02"
+          },
+          {
+            "filed_date": "2025-05-12",
+            "form_type": "8-K",
+            "description": "Item 8.01; Item 9.01"
+          },
+          {
+            "filed_date": "2025-05-01",
+            "form_type": "8-K",
+            "description": "Item 2.02; Item 9.01"
+          }
+        ],
+        "esg_governance_excerpt": "Human Capital\nThe Company’s Annual Reports on Form 10-K, Quarterly Reports on Form 10-Q, Current Reports on Form 8-K, and amendments to reports filed pursuant to Sections 13(a) and 15(d) of the Securities Exchange Act of 1934, as amended (“Exchange Act”), are filed with the U.S. Securities and Exchange Commission (“SEC”). Such reports and other information filed by the Company with the SEC are available free of charge at investor.apple.com/investor-relations/sec-filings/default.aspx when such reports are available on the SEC’s website. The Company periodically provides certain information for investors on its corporate website, www.apple.com, and its investor relations website, investor.apple.com. This includes press releases and other information about financial performance, information on corporate governance, and details related to the Company’s annual meeting of shareholders. The information contained on the websites referenced in this Form 10-K is not incorporated by reference into this filing. Further, the Company’s references to website URLs are intended to be inactive textual references only.\nMany of the Company’s operations, retail stores and facilities, as well as critical business operations of the Company’s suppliers and contract manufacturers, are in locations that are prone to earthquakes and other natural disasters. Global climate change is resulting in certain types of natural disasters and extreme weather occurring more frequently or with more intense effects. In addition, the Company’s and its suppliers’ operations, retail stores and facilities are subject to the risk of interruption by fire, power shortages, nuclear power plant accidents and other industrial accidents, terrorist attacks and other hostile acts, ransomware and other cybersecurity attacks, labor disputes, public health issues and other events beyond the Company’s control.\nThe Company offers complex hardware and software products and services that can be affected by design and manufacturing defects. Sophisticated operating system software and applications, such as those offered by the Company, often have issues that can unexpectedly interfere with the intended operation of hardware or software products and services. Defects can also exist in components and products the Company purchases from third parties. Component defects could make the Company’s products unsafe and create a risk of environmental or property damage and personal injury. These risks may increase as the Company’s products are introduced into specialized applications, including health. In addition, the Company’s service offerings can have quality issues and from time to time experience outages, service slowdowns or errors. As a result, from time to time the Company’s services have not performed as anticipated and may not meet customer expectations. The introduction of new and complex technologies, such as artificial intelligence features, can increase these and other safety risks, including exposing users to harmful, inaccurate or other negative content and experiences. The Company may not be able to detect and fix all issues and defects in the hardware, software and services it offers, which can result in widespread technical and performance issues affecting the Company’s products and services. Errors, bugs and vulnerabilities can be exploited by third parties, compromising the safety and security of a user’s device. In addition, the Company can be exposed to product liability claims, recalls, product replacements or modifications, write-offs of inventory, property, plant and equipment or intangible assets, and significant warranty and other expenses, including litigation costs and regulatory fines. Quality problems can adversely affect the experience for users of the Company’s products and services, and result in harm to the Company’s reputation, loss of competitive advantage, poor market acceptance, reduced demand for products and services, delay in new product and service introductions and lost sales.\nThe Company’s global operations are subject to complex and changing laws and regulations worldwide on subjects including antitrust; privacy, data security and data localization; online safety; age verification; consumer protection; advertising, sales, billing and e-commerce; financial services and technology; product liability; intellectual property ownership and infringement; digital platforms; machine learning and artificial intelligence; internet, telecommunications and mobile communications; media, television, film and digital content; availability of third-party software applications and services; labor and employment; anticorruption; import, export and trade; foreign exchange controls and cash repatriation restrictions; anti–money laundering; foreign ownership and investment; national security; tax; and environmental, health and safety, including electronic waste, recycling, product design and climate change.\nVarious stakeholders, including governments, ... [truncated]"
+      }
+    }
+  ]
+}

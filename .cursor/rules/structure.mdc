@@ -16,7 +16,10 @@ spectre/
 │   ├── base.py              # AbstractModule base class
 │   ├── financial.py         # Module 1: Financial Fortress (edgartools)
 │   ├── ip.py                # Module 2: Legal Minefield (patent-client)
-│   └── sentiment.py         # Module 3: Psychological Atmosphere (VADER/TextBlob)
+│   ├── sentiment.py         # Module 3: Psychological Atmosphere (VADER/TextBlob)
+│   ├── porters.py           # Module 4: Porter's Five Forces (edgartools)
+│   ├── vrio.py              # Module 5: VRIO Framework (edgartools)
+│   └── pestel.py            # Module 6: PESTEL Model (edgartools)
 ├── utils/
 │   ├── __init__.py
 │   ├── proxy.py             # Rotating proxy manager
