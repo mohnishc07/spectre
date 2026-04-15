@@ -1,0 +1,121 @@
+{
+  "company": "pipedrive",
+  "domain": "pipedrive.com",
+  "timestamp": "2026-04-13T15:59:05.932114",
+  "analysis": {
+    "pricing": {
+      "tiers_found": [],
+      "monthly_prices": [],
+      "annual_prices": [],
+      "price_range": {},
+      "pricing_model": [
+        "per_seat",
+        "contact_sales"
+      ],
+      "trial_offers": [
+        "free_trial",
+        "no_credit_card"
+      ],
+      "has_free_tier": false,
+      "requires_sales_call": true
+    },
+    "messaging": {
+      "main_headline": "The easy and effective CRM for closing deals",
+      "subheadlines": [
+        "CRM software sales teams will love",
+        "See how Pipedrive is helping customers",
+        "AI tools for more creativity, faster insights and better efficiency",
+        "500+ integrations to boost workflows",
+        "Optimize your sales process",
+        "Award-winning CRM software"
+      ],
+      "h3_messages": [
+        "**Easily manage leads and deals**",
+        "One space for all your sales activities",
+        "**Automate and scale**",
+        "**Instant sales insights**"
+      ],
+      "target_segments": [
+        "Developer",
+        "SMB",
+        "eCommerce"
+      ],
+      "positioning_angle": [
+        "outcome_driven",
+        "collaboration",
+        "speed"
+      ],
+      "emotional_tone": [
+        "aspiration",
+        "urgency",
+        "exclusivity"
+      ],
+      "ctas_by_type": {
+        "low_friction": [
+          "get started",
+          "try it free"
+        ],
+        "sales_led": [
+          "contact sales"
+        ],
+        "generic": [
+          "learn more",
+          "get started",
+          "explore"
+        ]
+      },
+      "primary_cta": "get started",
+      "proof_points": [
+        "100,000 companies",
+        "500+ integrations",
+        "100,000 companies",
+        "100,000+ companies",
+        "179 countries"
+      ],
+      "uptime_claims": [],
+      "buzzwords": [
+        "AI-powered",
+        "seamless",
+        "robust",
+        "world-class"
+      ],
+      "buzzword_count": 4
+    },
+    "signals": {
+      "total_dept_keyword_hits": 7,
+      "hiring_by_department": {
+        "customer_success": 4,
+        "sales": 1,
+        "security": 1,
+        "leadership": 1
+      },
+      "biggest_hiring_push": "customer_success",
+      "top_3_departments": [
+        "customer_success",
+        "sales",
+        "security"
+      ],
+      "tech_investments": [
+        "security",
+        "api_platform",
+        "enterprise",
+        "payments"
+      ],
+      "seniority_distribution": {
+        "junior": 1,
+        "mid": 0,
+        "senior": 3,
+        "leadership": 1
+      },
+      "dominant_seniority": "senior",
+      "geographic_expansion": [
+        "EMEA",
+        "APAC"
+      ],
+      "remote_stance": "unknown",
+      "strategic_inferences": [
+        "Product-led / retention focus \u2014 more CS than Sales"
+      ]
+    }
+  }
+}
